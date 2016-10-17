@@ -237,35 +237,44 @@ export default class MultiMonthView extends Component {
 
     const flexProps = assign({}, props)
 
-    delete flexProps.activeDate
-    delete flexProps.clockTabIndex
-    delete flexProps.constrainActiveInView
-    delete flexProps.constrainViewDate
-    delete flexProps.date
-    delete flexProps.dateFormat
-    delete flexProps.daysInView
-    delete flexProps.defaultRange
-    delete flexProps.enableHistoryView
-    delete flexProps.footer
-    delete flexProps.footerClearDate
-    delete flexProps.forceViewUpdate
-    delete flexProps.highlightRangeOnMouseMove
-    delete flexProps.inViewEnd
-    delete flexProps.inViewStart
-    delete flexProps.isDatePicker
-    delete flexProps.locale
-    delete flexProps.navigation
-    delete flexProps.onViewDateChange
-    delete flexProps.perRow
-    delete flexProps.range
-    delete flexProps.rangeStart
-    delete flexProps.renderNavBar
-    delete flexProps.theme
-    delete flexProps.viewDate
-    delete flexProps.viewEnd
-    delete flexProps.viewMoment
-    delete flexProps.viewMoments
-    delete flexProps.viewStart
+      delete flexProps.activeDate;
+      delete flexProps.clockTabIndex;
+      delete flexProps.constrainActiveInView;
+      delete flexProps.constrainViewDate;
+      delete flexProps.date;
+      delete flexProps.dateFormat;
+      delete flexProps.daysInView;
+      delete flexProps.defaultActiveDate;
+      delete flexProps.defaultRange;
+      delete flexProps.defaultViewDate;
+      delete flexProps.enableHistoryView;
+      delete flexProps.footer;
+      delete flexProps.footerClearDate;
+      delete flexProps.forceValidDate;
+      delete flexProps.forceViewUpdate;
+      delete flexProps.highlightRangeOnMouseMove;
+      delete flexProps.highlightToday;
+      delete flexProps.highlightWeekends;
+      delete flexProps.inViewEnd;
+      delete flexProps.inViewStart;
+      delete flexProps.isDatePicker;
+      delete flexProps.locale;
+      delete flexProps.navigation;
+      delete flexProps.maxDate;
+      delete flexProps.minDate;
+      delete flexProps.onViewDateChange;
+      delete flexProps.perRow;
+      delete flexProps.range;
+      delete flexProps.rangeStart;
+      delete flexProps.renderNavBar;
+      delete flexProps.theme;
+      delete flexProps.viewDate;
+      delete flexProps.viewEnd;
+      delete flexProps.viewMoment;
+      delete flexProps.viewMoments;
+      delete flexProps.viewStart;
+      delete flexProps.weekNumbers;
+      delete flexProps.weekStartDay
 
     return <Flex
       column
