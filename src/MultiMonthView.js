@@ -401,7 +401,7 @@ export default class MultiMonthView extends Component {
     })
   }
 
-  select({ dateMoment, timestamp }) {
+  select({ dateMoment, timestamp }, event) {
     // if (!dateMoment) {
     //   return
     // }
